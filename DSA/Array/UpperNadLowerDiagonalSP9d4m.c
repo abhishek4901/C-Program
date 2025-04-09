@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main() {
-    int i, j, n,temp, m, Upcount=0,Lpcount=0;
+    int i, j, n,temp, m, Udcount=0,Ldcount=0;
     printf("Enter the number of rows and columns: ");
     scanf("%d%d", &n, &m);
     if(n==m){
@@ -22,20 +22,20 @@ int main() {
     for (i=0;i<n ;i++){
         for(j=0;j<m;j++){
             if(i>j && mat[i][j]!=0){
-                Lpcount++;
+                Ldcount++;
         }
         else
            if (i<j && mat[i][j]!=0){
-                Upcount++;
+                Udcount++;
             }
         }
     }
 
-   if(Lpcount==0){
+   if(Ldcount==0){
         printf("Matrix is Upper Diagonal sm\n");
     } else { 
         printf("Matrix is not Upper Diagonal sm \n"); }
-  if(Upcount==0){
+  if(Udcount==0){
         printf("Matrix is Lower Diagonal sm\n");
     } else { 
         printf("Matrix is not Lower Diagonal sm \n");

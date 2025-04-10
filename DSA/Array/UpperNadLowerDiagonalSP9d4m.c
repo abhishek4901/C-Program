@@ -32,13 +32,13 @@ int main() {
     }
 
    if(Ldcount==0){
-        printf("Matrix is Upper Diagonal sm\n");
+        printf("Matrix is Upper Diagonal sparse matrix\n");
     } else { 
-        printf("Matrix is not Upper Diagonal sm \n"); }
+        printf("Matrix is not Upper Diagonal sparse matrix \n"); }
   if(Udcount==0){
-        printf("Matrix is Lower Diagonal sm\n");
+        printf("Matrix is Lower Diagonal sparse matrix\n");
     } else { 
-        printf("Matrix is not Lower Diagonal sm \n");
+        printf("Matrix is not Lower Diagonal sparse matrix \n");
     }
     }
     else{

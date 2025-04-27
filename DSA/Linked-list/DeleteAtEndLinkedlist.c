@@ -26,7 +26,7 @@ void insertatbegain()
         if (newnode == NULL) // Check if memory allocation failed
         {
             printf("Memory allocation failed\n"); // Print error message if allocation fails
-             // Exit the function
+          
         }
         newnode->data = value; // Assign the value to the new node
         newnode->next = NULL;  // Set the next pointer of the new node to NULL

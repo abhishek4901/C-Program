@@ -12,7 +12,7 @@ typedef struct LinkedList
 list  *newnode = NULL, *head = NULL, *temp = NULL, *tail = NULL;
 int n, value; // Declare variables for the number of nodes and node values
 
-int  insertatbegain()
+void insertatbegain()
 {
     printf("Enter the number of nodes: "); // Prompt the user to enter the number of nodes
     scanf("%d", &n); // Read the number of nodes from the user
@@ -26,7 +26,7 @@ int  insertatbegain()
         if (newnode == NULL) // Check if memory allocation failed
         {
             printf("Memory allocation failed\n"); // Print error message if allocation fails
-            return; // Exit the function
+          
         }
         newnode->data = value; // Assign the value to the new node
         newnode->next = NULL;  // Set the next pointer of the new node to NULL
@@ -42,7 +42,7 @@ int  insertatbegain()
             tail = newnode;       // Update the tail pointer to the new node
         }
     }
-    retun 0;
+   
 }
 void printList()
 {

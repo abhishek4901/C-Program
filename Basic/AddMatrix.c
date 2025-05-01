@@ -7,7 +7,6 @@ for (int i = 0; i < rows; i++) {
         sum[i][j] = matrix1[i][j] + matrix2[i][j];
     }
 }
-
 }
 int main() {
     int rows, cols;

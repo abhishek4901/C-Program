@@ -21,7 +21,7 @@ void createList() {
         newnode = (list*)malloc(sizeof(list)); // Allocate memory for a new node
         if (newnode == NULL) { // Check if memory allocation failed
             printf("Memory allocation failed\n"); // Print error message
-            return; // Exit the function
+         
         }
 
         scanf("%d", &value); // Read the value for the current node

@@ -3,7 +3,7 @@ int main (){
     int arr[100]={0,1,1,1,0,0,1,1},size,i,j,temp;
     size=8;
     printf("Before sorting: "); 
-    for(i=0;i<size;i++)   
+    for(i=0;i<size;i++)    
         printf("%d ",arr[i]);
     for(i=0;i<size;i++){
         for(j=i+1;j<size;j++){

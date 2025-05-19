@@ -80,7 +80,7 @@ int main() {
     int choice, data, priority;
 
     while (1) {
-        printf("\n---- Priority Queue Menu ----\n");
+        printf("\n Priority Queue Menu \n");
         printf("1. Insert\n");
         printf("2. Dequeue\n");
         printf("3. Display\n");

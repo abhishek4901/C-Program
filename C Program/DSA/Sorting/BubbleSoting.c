@@ -2,7 +2,6 @@
 #define MAX 100
 int main() 
 { 
-
     int i, j, n, temp;
     int arr[MAX];
     printf("Enter the number of elements you want to sort: ");

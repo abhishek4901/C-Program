@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define MAX 100
 int main()
-{
+{ 
 
     int i, j, n, temp;
     int arr[MAX];

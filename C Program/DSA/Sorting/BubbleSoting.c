@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define MAX 100
-int main()
+int main() 
 { 
 
     int i, j, n, temp;

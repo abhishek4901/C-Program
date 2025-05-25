@@ -5,7 +5,6 @@ int InsertionSorting(int arr[Max], int n){
 }
 
 
-
  int main() {
     int arr[Max];
     int n, i;

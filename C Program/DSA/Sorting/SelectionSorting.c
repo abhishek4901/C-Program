@@ -8,7 +8,7 @@ void SelectionSorting(int arr[], int n) {
         for (j = i + 1; j < n; j++) {
             if ( arr[min_idx] > arr[j] ) {
                 min_idx = j;
-            }
+            } 
         }
         // Swap arr[i] and arr[min_idx]
         temp = arr[i];

@@ -3,7 +3,7 @@
 int main() 
 {  
     int i, j, n, temp;   
-    int arr[MAX];
+    int arr[MAX]; 
     printf("Enter the number of elements you want to sort: ");
     scanf("%d", &n);
     for (i = 0; i < n; i++)

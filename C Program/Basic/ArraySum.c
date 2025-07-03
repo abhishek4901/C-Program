@@ -3,7 +3,7 @@
 int main() {
     int arr[63] = {10, 20, 30, 40, 50}; // Array declaration
     int *ptr = arr; // Pointer pointing to the first element of the array
-    // int size = sizeof(arr) / sizeof(arr[0]); // Calculate the size of the array
+    // int size = sizeof(arr) / sizeof(arr[0]); // Calculate the size of the array 
     int sum = 0;
  
     // Traverse the array using the pointer

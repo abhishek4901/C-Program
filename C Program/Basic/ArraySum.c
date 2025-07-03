@@ -5,7 +5,7 @@ int main() {
     int *ptr = arr; // Pointer pointing to the first element of the array
     // int size = sizeof(arr) / sizeof(arr[0]); // Calculate the size of the array
     int sum = 0;
-
+ 
     // Traverse the array using the pointer
     for (int i = 0; i < 3; i++) {
         sum =  sum +(*ptr ++); // Access array elements using the pointer

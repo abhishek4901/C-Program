@@ -9,7 +9,7 @@ int main() {
     // Traverse the array using the pointer
     for (int i = 0; i < 3; i++) {
         sum =  sum +(*ptr ++); // Access array elements using the pointer
-    }
+    } 
 
     // Display the result
     printf("The sum of the elements in the array is: %d\n", sum);

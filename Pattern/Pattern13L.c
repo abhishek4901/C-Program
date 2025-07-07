@@ -6,7 +6,7 @@
             printf("%d" ,num);
         }
         col--;
-        num--;
+        num--; 
         printf("\n");  
      }
      return 0 ;
